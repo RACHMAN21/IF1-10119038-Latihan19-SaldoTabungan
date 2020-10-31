@@ -21,7 +21,7 @@ public class SaldoTabungan {
        while (i<=bulan) {
            saldoBulanan = saldo * bunga;
            saldo = (int) (saldo + saldoBulanan);
-           System.out.println("Saldo di bulan ke-" + i + " Rp." + saldo);
+           System.out.println("Saldo di bulan ke-"+i+" Rp."+saldo);
            i++;
        }
    }
